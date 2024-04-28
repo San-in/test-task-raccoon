@@ -16,6 +16,9 @@ body {
 .text_color__error {
   color: #CB3D40;
 }
+.text_color__white {
+  color: rgba(255, 255, 255, 0.8705882353);
+}
 
 .bg_color__primary {
   background-color: #F4E041;
@@ -46,8 +49,8 @@ body {
   line-height: 1.625;
 }
 .text_size__large {
-  font-size: 40px;
-  line-height: 1.9;
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 .mb-11 {
@@ -112,6 +115,16 @@ body {
   .container {
     padding: 0 60px;
   }
+}
+
+.content {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
 }
 
 h3 {

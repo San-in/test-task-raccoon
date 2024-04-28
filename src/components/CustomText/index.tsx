@@ -4,7 +4,7 @@ import '../../styles/scss/utils/_colors.scss';
 interface Props {
   children: ReactNode;
   textAlign?: CSSProperties['textAlign'];
-  color?: 'main' | 'secondary' | 'error';
+  color?: 'main' | 'secondary' | 'error' | 'white';
   size?: 'small' | 'medium' | 'large';
 }
 const CustomText: React.FC<Props> = ({
