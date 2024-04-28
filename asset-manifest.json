@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-task-raccoon/static/css/main.f564211b.css",
+    "main.js": "/test-task-raccoon/static/js/main.bca9ad33.js",
+    "index.html": "/test-task-raccoon/index.html",
+    "main.f564211b.css.map": "/test-task-raccoon/static/css/main.f564211b.css.map",
+    "main.bca9ad33.js.map": "/test-task-raccoon/static/js/main.bca9ad33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f564211b.css",
+    "static/js/main.bca9ad33.js"
+  ]
+}
