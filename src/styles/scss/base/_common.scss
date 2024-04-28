@@ -1,0 +1,117 @@
+@import "../utils";
+
+body {
+  font-family: $font-family-main;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-md;
+  line-height: $line-height-md;
+  color: $color-text-main;
+  background-color: $color-bg-white;
+}
+
+.text_color {
+  &__main {
+    color: $color-text-main;
+  }
+  &__secondary {
+    color: $color-text-secondary;
+  }
+  &__error {
+    color: $color-text-error;
+  }
+}
+
+.bg_color {
+  &__primary {
+    background-color: $color-bg-primary;
+  }
+  &__secondary {
+    background-color: $color-bg-secondary;
+  }
+}
+
+.border {
+  &__main {
+    border: 1px solid $color-border-main;
+  }
+  &__secondary {
+    border: 1px solid $color-border-secondary;
+  }
+  &__accent {
+    border: 1px solid $color-border-accent;
+  }
+  &__error {
+    border: 2px solid $color-border-error;
+  }
+}
+
+.text_size {
+  &__small {
+    font-size: $font-size-sm;
+    line-height: $line-height-sm;
+  }
+  &__medium {
+    font-size: $font-size-md;
+    line-height: $line-height-md;
+  }
+  &__large {
+    font-size: $font-size-lg;
+    line-height: $line-height-lg;
+  }
+}
+
+.mb {
+  &-11 {
+    margin-bottom: 11px;
+  }
+  &-20 {
+    margin-bottom: 20px;
+  }
+  &-29 {
+    margin-bottom: 29px;
+  }
+  &-47 {
+    margin-bottom: 47px;
+  }
+  &-50 {
+    margin-bottom: 50px;
+  }
+}
+
+.hidden { display: none }
+
+.input-helper-text-wrapper{
+  padding: 4px 16px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-auto {
+  cursor: auto;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+  @media only screen and (max-width: $breakpoint-mob) {
+    max-width: 100%;
+  }
+  @media only screen and (min-width: $breakpoint-tablet-start) and (max-width: $breakpoint-tablet-end) {
+    max-width: $breakpoint-tablet-end;
+  }
+  @media only screen and (min-width: $breakpoint-desktop-start) {
+    padding: 0 32px;
+    max-width: $breakpoint-desktop-end;
+  }
+  @media only screen and (min-width: $breakpoint-desktop-end) {
+    padding: 0 60px;
+  }
+}

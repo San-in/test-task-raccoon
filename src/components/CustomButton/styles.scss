@@ -1,0 +1,29 @@
+@import "../../styles/scss/utils/index";
+
+.button {
+  padding: 4px 23px;
+  font-size: $font-size-btn;
+  line-height: $line-height-btn;
+  border-radius: 80px;
+  &__primary {
+    color: $color-text-main;
+    background-color: $color-bg-primary;
+    &:focus,
+    &:hover {
+      background-color: $color-bg-primary-hover;
+    }
+
+  }
+  &__secondary {
+    color: $color-text-white;
+    background-color: $color-bg-secondary;
+    &:focus,
+    &:hover {
+      background-color: $color-bg-secondary-hover;
+    }
+  }
+  &:disabled {
+    color: $color-text-white;
+    background-color: $color-bg-grey;
+  }
+}

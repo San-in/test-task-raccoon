@@ -1,0 +1,166 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: rgba(0, 0, 0, 0.8705882353);
+  background-color: #FFFFFF;
+}
+
+.text_color__main {
+  color: rgba(0, 0, 0, 0.8705882353);
+}
+.text_color__secondary {
+  color: #7E7E7E;
+}
+.text_color__error {
+  color: #CB3D40;
+}
+
+.bg_color__primary {
+  background-color: #F4E041;
+}
+.bg_color__secondary {
+  background-color: #00BDD3;
+}
+
+.border__main {
+  border: 1px solid rgba(0, 0, 0, 0.8705882353);
+}
+.border__secondary {
+  border: 1px solid #D0CFCF;
+}
+.border__accent {
+  border: 1px solid #00BDD3;
+}
+.border__error {
+  border: 2px solid #CB3D40;
+}
+
+.text_size__small {
+  font-size: 12px;
+  line-height: 1.1666666667;
+}
+.text_size__medium {
+  font-size: 16px;
+  line-height: 1.625;
+}
+.text_size__large {
+  font-size: 40px;
+  line-height: 1.9;
+}
+
+.mb-11 {
+  margin-bottom: 11px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-29 {
+  margin-bottom: 29px;
+}
+.mb-47 {
+  margin-bottom: 47px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.input-helper-text-wrapper {
+  padding: 4px 16px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-auto {
+  cursor: auto;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+}
+@media only screen and (max-width: 360px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .container {
+    padding: 0 32px;
+    max-width: 1024px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+
+h3 {
+  font-size: inherit;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background: inherit;
+  line-height: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
