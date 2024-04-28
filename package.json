@@ -54,7 +54,7 @@
     "node-sass": "^7.0.3",
     "prettier": "^3.2.5",
     "sass-loader": "^14.1.1",
-    "typescript": "^5.4.2",
+    "typescript": "^4.9.5",
     "webpack": "^5.90.3"
   }
 }
